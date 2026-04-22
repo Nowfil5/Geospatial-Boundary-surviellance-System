@@ -87,7 +87,7 @@ class MaritimeTrackingApp:
         IDGeneratorApp(new_window)
     
     def read_gps(self):
-        serial_port = "COM3"  # Change based on your system
+        serial_port = "Enter_Port_Name"  # Change based on your system
         baud_rate = 115200
         try:
             ser = serial.Serial(serial_port, baud_rate, timeout=1)
