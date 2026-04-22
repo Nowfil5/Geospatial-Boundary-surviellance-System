@@ -1,0 +1,4 @@
+pyserial
+tkintermapview
+shapely
+Pillow
